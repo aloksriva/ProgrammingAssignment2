@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## cacheSolve() : accepts a matrix as an input parameter. Checks if an inverse of input
 ##                exists in cache. If yes, returns the cached inverted matrix; Else, 
-##                computes inverted matrix and returns the same
+##                computes inverted matrix, caches it, and returns to calling user/program
 
 cacheSolve <- function(x, ...) {
   
